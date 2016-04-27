@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47E657741C0E15CD00CE6CC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E657731C0E15CD00CE6CC0 /* main.cpp */; };
+		47E6577F1C0E15EC00CE6CC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E6577A1C0E15EC00CE6CC0 /* main.cpp */; };
+		47E657801C0E15EC00CE6CC0 /* tab_gen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E6577B1C0E15EC00CE6CC0 /* tab_gen.cpp */; };
+		47E657811C0E15EC00CE6CC0 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E6577D1C0E15EC00CE6CC0 /* tools.cpp */; };
+		47E657831C0E161400CE6CC0 /* cpp_template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E657821C0E161400CE6CC0 /* cpp_template.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,13 @@
 
 /* Begin PBXFileReference section */
 		47E657701C0E15CD00CE6CC0 /* Tab Generation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tab Generation"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47E657731C0E15CD00CE6CC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		47E6577A1C0E15EC00CE6CC0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		47E6577B1C0E15EC00CE6CC0 /* tab_gen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tab_gen.cpp; sourceTree = "<group>"; };
+		47E6577C1C0E15EC00CE6CC0 /* tab_gen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tab_gen.hpp; sourceTree = "<group>"; };
+		47E6577D1C0E15EC00CE6CC0 /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		47E6577E1C0E15EC00CE6CC0 /* tools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tools.hpp; sourceTree = "<group>"; };
+		47E657821C0E161400CE6CC0 /* cpp_template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpp_template.cpp; sourceTree = "<group>"; };
+		47E657841C0E162400CE6CC0 /* cpp_template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpp_template.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		47E657721C0E15CD00CE6CC0 /* Tab Generation */ = {
 			isa = PBXGroup;
 			children = (
-				47E657731C0E15CD00CE6CC0 /* main.cpp */,
+				47E6577A1C0E15EC00CE6CC0 /* main.cpp */,
+				47E6577B1C0E15EC00CE6CC0 /* tab_gen.cpp */,
+				47E6577C1C0E15EC00CE6CC0 /* tab_gen.hpp */,
+				47E657821C0E161400CE6CC0 /* cpp_template.cpp */,
+				47E657841C0E162400CE6CC0 /* cpp_template.h */,
+				47E6577D1C0E15EC00CE6CC0 /* tools.cpp */,
+				47E6577E1C0E15EC00CE6CC0 /* tools.hpp */,
 			);
 			path = "Tab Generation";
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47E657741C0E15CD00CE6CC0 /* main.cpp in Sources */,
+				47E657801C0E15EC00CE6CC0 /* tab_gen.cpp in Sources */,
+				47E6577F1C0E15EC00CE6CC0 /* main.cpp in Sources */,
+				47E657811C0E15EC00CE6CC0 /* tools.cpp in Sources */,
+				47E657831C0E161400CE6CC0 /* cpp_template.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +255,7 @@
 				47E657791C0E15CD00CE6CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
